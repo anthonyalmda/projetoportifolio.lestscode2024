@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portifólio - Anthony</title>
+    <link rel="stylesheet" type="text/css" 
+    href="style.css">
+    <link rel="preconnect" href=
+    "https://fonts.googleapis.com">
+    <link rel="preconnect" href=
+    "https://fonts.gstatic.com" crossorigin>
+    <link href=
+    "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <section style="background-color: #fffcf2;">
+        <header class="header" style="background-color: #fffcf2;">
+            <div class="nome">Anthony Almeida</div>
+            
+            
+            <ul class="nav-menu">
+
+                
+                <li><a href="#section1">
+                    Descrição</a></li>
+                <li><a href="#section2">
+                    Projetos</a>
+                </li>
+                <!-- Adicione mais links de navegação conforme necessário -->
+                <a class="contact-btn" 
+                href="#contact">Contato</a>
+            </ul>
+            
+        </header>
+    </section>
+    <div class="divisao1">
+        
+    </div>
+      <section >
+        <div class="corpo1" style="
+        border-bottom-right-radius:20px; 
+        border-bottom-left-radius:20px">
+            <div class="fotos">
+                <img style="border-radius:
+                 360px; height: 400px; 
+                 width: 400px; border: 1px groove #2B4132;" 
+                 src="IMG_1554.jpg">
+            </div>
+            <div style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+            <div class="descricao">
+                Olá, sou
+                <h1  class="titulocorpo">
+                    Anthony <br> Almeida
+                </h1>
+                <p style="margin: 1px;">
+                
+                Engenheiro de Computação;<br>
+                Frontend Developer; <br>
+                Professor.
+            
+                </p>
+            </div>
+            
+            <div class="links">
+
+               <a href="https://github.com/anthonyalmda" ><img src="placa-do-github.png"style="height: 30px;width: 30px;padding: 5px;"></a>
+               
+               <a href="https://www.linkedin.com/in/anthonyalmda/"> <img src="logotipo-do-linkedin.png" style="height: 30px;width: 30px;padding: 5px;"></a>
+            
+               <a href="https://www.instagram.com/anthonyalmda/"> <img src="instagram.png" style="height: 30px;width: 30px;padding: 5px;"></a>
+               
+            </div>
+            <a class="BAIXARCV" href="https://drive.google.com/file/d/1N0uvmcTy7VoCaVMZsVi1Zf-lekMEx1YX/view?usp=sharing">
+                <button class="BAIXARCV">
+                CURRÍCULO
+                </button>
+            </a>
+
+        </div>
+
+        </div>
+        
+        </div>
+    </section>
+      <section >
+        <div class="corpo2"  >
+            <img src="xadrez.png" style="width: 100%;">
+            <p style="font-family: 'Permanent Marker'; font-size: 35px; color: #fffcf2;">PROJETOS</p>
+        <div class="conteinerprojetos">
+          
+            <div class="projeto">
+                <img class="imagem1" src="Logotipo (2).png">
+                WebDevelopment e Freelancing de sites
+                          </div>
+          <div class="projeto">
+<img class="imagem2" src="unijorge-logo-B2845B02B6-seeklogo.com.png">
+Projetos da faculdade envolvendo programação
+          </div>
+          <div class="projeto">
+<img class="imagem3" src="arduino-logo-5B8F98793E-seeklogo.com.png">
+Projetos e aulas de Robótica e Automação
+
+          </div>
+        </div>
+        
+      </section>
+      <script>
+        let slideIndex = 0;
+        showSlides();
+      
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("projeto");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 4000); 
+        }
+      </script>
+      </div>
+      <section>
+        
+
+
+
+      </section>
+</body>
+
+
+</html>
